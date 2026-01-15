@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hw Card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background: #ff0571;
+            background: radial-gradient(circle, rgba(255, 5, 113, 1) 0%, rgba(148, 187, 233, 1) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+
+        }
+         .card{
+            width: 1000px;
+            height: 500px;
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            overflow: hidden;
+            
+        }
+
+        .leftBox{
+            height: 100%;
+            width: 70%;
+            background-color: mediumvioletred;
+            color: white;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 70px;
+            display: flex;
+            flex-direction: column;
+            gap: 70px;
+            
+        }
+        .leftBox h2{
+            text-align:left;
+            font-weight: bold;
+            font-size: 2.5rem;
+            
+        }
+        .statBox{
+            display: flex;
+            flex-direction: row;
+            gap: 90px;
+        }
+        #b1{
+            font-weight: bold;
+            font-size: 1.4rem;
+
+        }
+
+        .rightBox img{
+            height: 100%;
+            width: 100%;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="leftBox">
+                <h2>Get insights that help your business grow</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, sed error cumque minima delectus praesentium voluptas ipsa consequuntur dolore sequi Lorem ipsum dolor sit.
+                </p>
+                <div class="statBox">
+                    <div id="box1">
+                        <p id="b1">10K+</p>
+                        <p id="b2">Comments</p>
+                    </div>
+                    <div id="box2">
+                        <p id="b1">214</p>
+                        <p id="b2">Paid Users</p>
+                    </div>
+                    <div id="box3">
+                        <p id="b1">12M+</p>
+                        <p id="b2">Views</p>
+                    </div>
+                </div>
+                </div>
+           
+            <div class="rightBox">
+                <img src="Tech-futur.png"/>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
